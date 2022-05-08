@@ -6,3 +6,8 @@ export type Restaurant = {
   description: string;
   updatedDate: Date;
 };
+
+export type RestaurantInput = Pick<
+  Restaurant,
+  "restaurantName" | "score" | "description"
+>;
