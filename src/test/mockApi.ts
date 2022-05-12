@@ -9,6 +9,7 @@ export const mockApi = (restaurant: RestaurantInput): Restaurant => {
     description: restaurant.description,
     introducer: "Shiba-Ken",
     updatedDate: new Date(),
+    occasion: restaurant.occasion,
   };
 
   return newRestaurant;

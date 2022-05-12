@@ -21,6 +21,7 @@ export const RestaurantForm = () => {
       restaurantName: restaurantNameInput,
       score: scoreInput,
       description: "test",
+      occasion: "Friends", //後で自由に変更できるようにする
     };
     const newRestaurantState = mockApi(newRestaurant);
     setRestaurant([...restaurants, newRestaurantState]);

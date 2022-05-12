@@ -5,9 +5,10 @@ export type Restaurant = {
   introducer: string;
   description: string;
   updatedDate: Date;
+  occasion: "Dating" | "Alone" | "Friends" | "colleague";
 };
 
 export type RestaurantInput = Pick<
   Restaurant,
-  "restaurantName" | "score" | "description"
+  "restaurantName" | "score" | "description" | "occasion"
 >;

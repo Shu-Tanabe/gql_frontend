@@ -15,6 +15,7 @@ const sampleRestaurants: Restaurant[] = [
     introducer: "DaisukeKataoka",
     description: "みんなの食卓でありたい",
     updatedDate: new Date("2020-12-12"),
+    occasion: "Alone",
   },
   {
     restaurantId: "002",
@@ -23,6 +24,7 @@ const sampleRestaurants: Restaurant[] = [
     introducer: "ShuTanabe",
     description: "すき家の牛丼",
     updatedDate: new Date("2020-1-30"),
+    occasion: "Friends",
   },
 ];
 
